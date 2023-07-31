@@ -1,0 +1,36 @@
+#+TITLE: Streamify - Movie Streaming and Download Script
+* Introduction
+
+Streamify is a versatile shell script that allows users to search, stream, and download movies effortlessly. It provides a convenient way to interactively search for movies on popular torrent websites, particularly emphasizing movie streaming using webtorrent with mpv or movie downloads using Transmission.
+
+* Features
+
++ Interactive movie search with dmenu
++ Stream movies using webtorrent and mpv
++ Download movies using Transmission
++ Clipboard integration for easy sharing of magnet links
++ Support for custom download locations
+
+* Dependencies
+Streamify relies on the following dependencies:
+1. dmenu
+2. curl
+3. st
+4. webtorrent
+5. transmission-daemon
+6. transmission-remote
+7. xclip
+8. notify-send
+
+Please ensure you have these dependencies installed before using Streamify.
+
+* Installation
+
+- Clone the Streamify repository:
+#+begin_src sh
+  git clone https://github.com/ayusjayaswal/Streamify.git
+#+end_src
+- Optionally, you can move the script to a directory that is in your PATH for easier access:
+#+begin_src sh
+  sudo mv streamify /usr/local/bin/streamify
+#+end_src
