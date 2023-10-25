@@ -1,7 +1,7 @@
-#+TITLE: Streamify - Movie Streaming and Download Script
+#+TITLE: Streamiboi- Movie Streaming and Download Script
 * Introduction
 
-Streamify is a versatile shell script that allows users to search, stream, and download movies effortlessly. It provides a convenient way to interactively search for movies on popular torrent websites, particularly emphasizing movie streaming using webtorrent with mpv or movie downloads using Transmission.
+Streamboi is a versatile shell script that allows users to search, stream, and download movies effortlessly. It provides a convenient way to interactively search for movies on popular torrent websites, particularly emphasizing movie streaming using webtorrent with mpv or movie downloads using Transmission.
 
 * Features
 
@@ -12,7 +12,7 @@ Streamify is a versatile shell script that allows users to search, stream, and d
 + Support for custom download locations
 
 * Dependencies
-Streamify relies on the following dependencies:
+Streamiboi relies on the following dependencies:
 1. dmenu
 2. curl
 3. st
@@ -28,9 +28,9 @@ Please ensure you have these dependencies installed before using Streamify.
 
 - Clone the Streamify repository:
 #+begin_src sh
-  git clone https://github.com/ayusjayaswal/Streamify.git
+  git clone https://github.com/ayusjayaswal/Streamboi.git
 #+end_src
 - Optionally, you can move the script to a directory that is in your PATH for easier access:
 #+begin_src sh
-  sudo mv streamify /usr/local/bin/streamify
+  sudo mv streamboi /usr/local/bin/streamboi
 #+end_src
