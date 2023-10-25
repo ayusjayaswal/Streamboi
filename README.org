@@ -1,4 +1,4 @@
-#+TITLE: Streamiboi- Movie Streaming and Download Script
+#+TITLE: Streamboi- Movie Streaming and Download Script
 * Introduction
 
 Streamboi is a versatile shell script that allows users to search, stream, and download movies effortlessly. It provides a convenient way to interactively search for movies on popular torrent websites, particularly emphasizing movie streaming using webtorrent with mpv or movie downloads using Transmission.
